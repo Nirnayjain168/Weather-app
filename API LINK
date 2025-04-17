@@ -1,0 +1,8 @@
+API KEY
+e928fa8eec6cb390037dc7d3f396ed4e
+
+Fetch tha data link
+https://api.openweathermap.org/data/2.5/weather?q=${cityValue}&appid=${apiKey}&units=metric
+
+image icon link
+https://openweathermap.org/img/wn/${icon}.png
