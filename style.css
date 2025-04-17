@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:cursive;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(94, 189, 180);
+}      
+.container{
+     background-color:rgba(216, 211, 211, 0.911);
+     max-width: 650px;
+     text-align: center;
+     padding: 20px;
+     margin: 20px auto;
+     margin-top: 40px;
+     box-shadow: 10px 10px 20px rgba(0,0,0,0.6);
+     border-radius: 10px;
+     border: 3px solid black;
+}
+form{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    align-items: center;
+}
+form input[type="text"]{
+   padding:5px;
+   font-size: 20px;
+   border: 1.8px solid black;
+   border-radius: 5px;
+   width: 70%;
+}
+form input[type="submit"]{
+    padding:5px;
+   font-size: 20px;
+   border: 1.8px solid black;
+   border-radius: 5px;
+   cursor: pointer;
+   background-color:brown;
+   color: white;
+   margin:10px;
+}
+.icon img{
+    width: 100px;
+    height: 100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.temp{
+    font-size: 35px;
+    font-weight: 1000;
+    margin-top: 0px;
+}
+.desc{
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.details>div{
+    font-size: 15px;
+    padding: 15px;
+    border-radius: 5px;
+    margin: 10px;
+    background-color: white;
+    min-height: 40px;
+    text-align: center;
+    align-items: center;
+    flex: 1;
+}
